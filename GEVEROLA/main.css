@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+  .parent-container{
+    margin: 5rem;
+  }
+  
+  .parent-container >div {
+    border: 0.4rem solid #19191b;
+    height: 70vh;
+  }
+  
+  .child-container > div {
+    border: 0.4rem solid #E3124E;
+    background-color: #FD6E86;
+    /* flex-grow: 1; */
+    width: 10%;   /* comment this out fr flex-grow to work */
+    height: 10vh; /* comment this out fr flex-grow to work */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .child-container{
+    /* display: flex; */
+    
+    /* ============= flex direction =============*/
+      /* flex-direction: row; */
+      /* flex-direction: row-reverse; */
+      /* flex-direction: column; */
+      /* flex-direction: column-reverse; */
+    /* ============= flex direction =============*/
+  
+    /* ============= flex justify =============*/
+      /* justify-content: flex-start; */
+      /* justify-content: flex-end; */
+      /* justify-content: center; */
+      /* justify-content: space-between; */
+      /* justify-content: space-around; */
+      /* justify-content: space-evenly; */
+    /* ============= flex justify  =============*/
+  
+    /* ============= flex align =============*/
+      /* align-items: flex-start; */
+      /* align-items: flex-end; */
+      /* align-items: center; */
+      /* align-items: baseline; */
+      /* align-items: stretch; */
+    /* ============= flex align =============*/
+  
+    /* ============= flex warp =============*/
+      /* flex-wrap: wrap; */
+      /* align-content: flex-start; */
+      /* gap: 1rem; */
+      /* align-content: flex-end; */
+      /* align-content: center; */
+      /* align-content: space-between; */
+      /* align-content: space-around; */
+    /* ============= flex warp =============*/
+  }
+  
+  
+  
+  
+  .item-3{
+    /* flex-grow: 1; */
+  }
